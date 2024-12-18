@@ -1,0 +1,74 @@
+table {
+    width: 70%; 
+    margin: 20px 0 20px 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightseagreen; 
+    color: white; 
+    text-align: center;
+}
+
+caption, th, td {
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: center;
+}
+
+caption {
+    background-color: rgb(123, 2, 82);
+    color: white; 
+}
+
+tr {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd; 
+}
+
+tr:nth-child(even) {
+    background-color: #ec92d4; 
+}
+
+tr:hover {
+    background-color: #9b9595; 
+}
+
+.promotion_information {
+    display: flex;
+    justify-content: center;
+}
+
+.promotion_information_ {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.promotion_information_2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+video {
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+
+
+@media (max-width: 800px) {
+    table {
+        width: 100%; 
+    }
+}

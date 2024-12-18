@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }s    
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0);
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(105, 105, 105), rgb(85, 85, 85));
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+header h1{
+    padding-bottom: 20px;
+    color: white;
+}
+
+header #head_logo{
+    width:334px;
+    height:100px;
+}
+
+nav {
+    background: linear-gradient(to bottom, #333, #222);
+    padding: 8px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end; 
+    height: 100%; 
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: rgb(84, 84, 249); 
+}
+
+nav a:hover {
+    background: #555; 
+}
+
+nav a:active {
+    background: #444; 
+}
+
+main {
+    padding: 20px;
+}
+
+.block {
+    display: flex; 
+    flex-direction: column; 
+    margin: 20px 0;
+    background-color: #fff; 
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+footer {
+    background: linear-gradient(to bottom, grey, darkgrey);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content p {
+    margin-top: 10px;
+    font-size: 0.9em; 
+}
+
+footer #foot_log{
+    width:260px;
+    height: 40px;
+}

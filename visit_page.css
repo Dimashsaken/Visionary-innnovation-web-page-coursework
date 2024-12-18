@@ -1,0 +1,63 @@
+.Welcome_block_ {
+    padding: 20px;
+    background-color: rgb(182, 182, 182);
+}
+
+.Location_block {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px; 
+    gap: 20px;
+}
+
+.image_loc img {
+    max-width: 70%; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.Reservation_block {
+    margin: 20px;
+    background: #f9f9f9; 
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+.Reservation_block h2 {
+    text-align: center;
+}
+
+
+fieldset {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: large;
+    font-weight: bold;
+}
+
+.Reservation_block label {
+    font-weight: bold;
+}
+
+.Reservation_block input,
+.Reservation_block select {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 60%; 
+    box-sizing: border-box; 
+}
+
+.Reservation_block button {
+    background-color: #007BFF; 
+    color: white;
+    cursor: pointer; 
+}
+
+.Reservation_block button:hover {
+    background-color: #0056b3; 
+}

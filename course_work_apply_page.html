@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <title>Apply page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/apply_page.css">
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/apply_page.css">
+    <style>
+        /* Basic styles for headings */
+        .zone-heading {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #f6f6f6;
+        }
+
+        .active-heading {
+            background-color: rgb(199, 199, 199); 
+        }
+
+    </style>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+</head>
+
+<body>
+    <script src="../JavaScript/javascript_for_apply_page.js"></script>
+    <header>
+        <img src="../images/logo.png" alt="Logo Of Visionary Innovation Hub" id="head_logo">
+        <h1>Visionary Innovation Hub</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="course_work_home_page.html">Home</a></li>
+            <li><a href="course_work_about_page.html">About</a></li>
+            <li><a href="course_work_apply_page.html">Apply</a></li>
+            <li><a href="course_work_visit_page.html">Visit</a></li>
+            <li><a href="course_work_information_page.html">Information</a></li>
+            <li><a href="course_work_contact_page.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="Welcome_block">
+        <p>Welcome to VIH</p>
+    </div>
+    <div class="Apply_block">
+        <fieldset>
+            <h3 class="zone-heading active-heading" onclick="showZone('technology')">Technology Zone</h3>
+            <div class="technology-zone" style="display: block;">
+                <form class="zone-form" data-zone="Technology Zone">
+                    <img src="../images/techwave.png" alt="TechWave Solutions logo">
+                    <label for="TechWave">TechWave Solutions</label>
+                    <input id="TechWave" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Technology Zone">
+                    <img src="../images/quantum.png" alt="Quantum Leap logo">
+                    <label for="Quantum">Quantum Leap Technologies</label>
+                    <input id="Quantum" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Technology Zone">
+                    <img src="../images/cyberguard.png" alt="CyberGuard Systems logo">
+                    <label for="Cyberguard">CyberGuard Systems</label>
+                    <input id="Cyberguard" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Technology Zone">
+                    <img src="../images/smartcity.png" alt="SmartCity Innovations logo">
+                    <label for="SmartCity">SmartCity Innovations</label>
+                    <input id="SmartCity" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Technology Zone">
+                    <img src="../images/connectify.png" alt="Connectify Networks logo">
+                    <label for="Connectify">Connectify Networks</label>
+                    <input id="Connectify" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+            </div>
+
+            <h3 class="zone-heading" onclick="showZone('innovation')">Innovation Zone</h3>
+            <div class="innovation-zone" style="display: none;">
+                <form class="zone-form" data-zone="Innovation Zone">
+                    <img src="../images/ecotech.png" alt="EcoTech Labs logo">
+                    <label for="Ecotech">EcoTech Labs</label>
+                    <input id="Ecotech" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Innovation Zone">
+                    <img src="../images/healthsphere.png" alt="HealthSphere Innovations logo">
+                    <label for="HealthSphere">HealthSphere Innovations</label>
+                    <input id="HealthSphere" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Innovation Zone">
+                    <img src="../images/createch.png" alt="CreaTech Studio logo">
+                    <label for="CreaTech">CreaTech Studio</label>
+                    <input id="CreaTech" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+            </div>
+
+            <h3 class="zone-heading" onclick="showZone('ecology')">Ecology Zone</h3>
+            <div class="ecology-zone" style="display: none;">
+                <form class="zone-form" data-zone="Ecology Zone">
+                    <img src="../images/greenfuture.png" alt="GreenFuture Enterprises logo">
+                    <label for="GreenFuture">GreenFuture Enterprises</label>
+                    <input id="GreenFuture" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Ecology Zone">
+                    <img src="../images/waterwise.png" alt="WaterWise Solutions logo">
+                    <label for="Water_Wise">WaterWise Solutions</label>
+                    <input id="Water_Wise" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Ecology Zone">
+                    <img src="../images/recycle.png" alt="ReCycle Innovations logo">
+                    <label for="ReCycle">ReCycle Innovations</label>
+                    <input id="ReCycle" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+                <form class="zone-form" data-zone="Ecology Zone">
+                    <img src="../images/ecobuild.png" alt="Ecobuild Technologies logo">
+                    <label for="Ecobuild">Ecobuild Technologies</label>
+                    <input id="Ecobuild" type="text" placeholder="Rank of choice">
+                    <button type="button" class="rank-button">Rank of choice</button>
+                </form>
+            </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <h1>Your chosen companies:</h1><br>
+        <h2 id="last-change-time">Last change: Not yet submitted</h2><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th>Company</th>
+                    <th>Rank</th>
+                </tr>
+            </thead>
+            <tbody id="choices-table-body">
+                <!-- Selected choices will be added here -->
+            </tbody>
+        </table><br>
+        <h2>Total number of completed choices: <span id="total-count">0</span></h2><br>
+        <button id="submit-button">Submit</button>
+        <button id="clear-button">Clear</button>
+    </div>
+
+    <footer>
+        <img src="../images/footer_logo.png" id="foot_log" alt="footer logo">
+        <p>&copy;CityU 2024 - sources and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="course_work_design_page.html" target="_blank"> Saken Dinmukhammed </a></p>
+    </footer>
+</body>
+
+</html>

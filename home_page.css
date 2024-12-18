@@ -1,0 +1,50 @@
+.Welcome_block {
+    margin-bottom: 20px;
+    background: rgb(182, 182, 182);
+    padding: 1%;
+}
+
+#Welcome_blockk {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Basic_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#address {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.location {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location .location-image {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+
+.location .apply-button img {
+    width: 100%; 
+    max-width: 200px;
+    height: auto;
+}
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+}
